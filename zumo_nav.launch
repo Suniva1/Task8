@@ -1,0 +1,3 @@
+var ReactWeather = require('react-open-weather').default;
+require('react-open-weather/lib/css/ReactWeather.css');
+

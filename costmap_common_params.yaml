@@ -1,0 +1,14 @@
+robot_radius: 0.5
+observation_sources: point_cloud_sensor
+point_cloud_sensor: {sensor_frame: odom, data_type: PointCloud2, topic:
+/zumo/objectcloud, marking: true, clearing: true}
+local_costmap_params.yaml
+local_costmap:
+global_frame: odom
+robot_base_frame: base_link
+update_frequency: 0.5
+publish_frequency: 0.1
+static_map: false
+rolling_window: true
+width: 10.0
+height: 10.0
